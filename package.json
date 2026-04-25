@@ -14,8 +14,10 @@
   "author": "",
   "type": "commonjs",
   "main": "app.js",
-   "scripts": {
+  "scripts": {
     "dev": "node app.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
 }
