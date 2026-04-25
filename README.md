@@ -83,4 +83,23 @@ Once you cd into the application root directory follow these steps:
 
 ```
 
+<br>
 
+## Observations
+
+1. Did the .env file get copied into the repo?
+
+   Yes, the .env did get copied to the repo.
+
+2. Did GitHub complain about it?
+
+   No, GitHub did not respond or block committing the .env file.
+
+<br>
+
+## Why you should not commit .env to the repo?
+
+1. Every developer who clones or sees the repo has access and receives every secret.
+2. Secrets persist in git history forever.
+3. Rotating a secret requires a new commit, and the old value remains visible in history.
+4. No access control, no auditing, no encryption at rest.
