@@ -1,0 +1,21 @@
+{
+  "name": "wdv4200_shared_secrets",
+  "version": "1.0.0",
+  "description": "shared secrets demo",
+  "homepage": "https://github.com/SulkesLisa-FS/WDV4200_Shared_Secrets#readme",
+  "bugs": {
+    "url": "https://github.com/SulkesLisa-FS/WDV4200_Shared_Secrets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SulkesLisa-FS/WDV4200_Shared_Secrets.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+   "scripts": {
+    "dev": "node app.js"
+  },
+  "dependencies": {}
+}
