@@ -32,13 +32,13 @@ Once you cd into the application root directory follow these steps:
 
 1.  Create the `.env` file for environment variables
 
-    touch .env
+        touch .env
 
 2.  Add the environment variable and secret key
 
-    # Shared secrets - for demo only
-    NODE_ENV=development
-    API_KEY=FAKE_SHARED_SECRET_IN_ENV_FILE
+        # Shared secrets - for demo only
+        NODE_ENV=development
+        API_KEY=FAKE_SHARED_SECRET_IN_ENV_FILE
 
 3.  Install Dependencies
 
