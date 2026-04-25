@@ -26,7 +26,7 @@ pushed to GitHub along with the rest of the files.
 
 ### Requirements
 
-- Node.js latest
+- Node.js (latest LTS)
 
 Once you cd into the application root directory follow these steps:
 
